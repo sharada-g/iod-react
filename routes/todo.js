@@ -41,6 +41,7 @@ router.post("/", async function (req, res, next) {
 });
 
 // delete /todos/:id
+// test
 router.delete("/:id", async function (req, res, next) {
   // check if id is provided
   if (!req.params.id) {
